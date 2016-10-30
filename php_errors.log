@@ -1,0 +1,26 @@
+[29-Oct-2016 15:57:51 UTC] PHP Warning:  include_once(../controllers/Formatter.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/servidor-hackathon/views/templates/header.php on line 2
+[29-Oct-2016 15:57:51 UTC] PHP Stack trace:
+[29-Oct-2016 15:57:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/servidor-hackathon/views/index.php:0
+[29-Oct-2016 15:57:51 UTC] PHP   2. include_once() /home/ubuntu/workspace/servidor-hackathon/views/index.php:3
+[29-Oct-2016 15:57:51 UTC] PHP Warning:  include_once(): Failed opening '../controllers/Formatter.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/servidor-hackathon/views/templates/header.php on line 2
+[29-Oct-2016 15:57:51 UTC] PHP Stack trace:
+[29-Oct-2016 15:57:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/servidor-hackathon/views/index.php:0
+[29-Oct-2016 15:57:51 UTC] PHP   2. include_once() /home/ubuntu/workspace/servidor-hackathon/views/index.php:3
+[29-Oct-2016 18:38:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (0) at position 0 (0): Unexpected character' in /home/ubuntu/workspace/servidor-hackathon/models/Formatter.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/servidor-hackathon/models/Formatter.php(14): DateTime->__construct('0')
+#1 /home/ubuntu/workspace/servidor-hackathon/controllers/DadosController.php(10): Formatter::formatDate('0')
+#2 {main}
+  thrown in /home/ubuntu/workspace/servidor-hackathon/models/Formatter.php on line 14
+[30-Oct-2016 08:35:36 UTC] PHP Warning:  unlink(../Alface.txt): No such file or directory in /home/ubuntu/workspace/servidor-hackathon/controllers/ConfiguracoesController.php on line 12
+[30-Oct-2016 08:35:36 UTC] PHP Stack trace:
+[30-Oct-2016 08:35:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/servidor-hackathon/controllers/ConfiguracoesController.php:0
+[30-Oct-2016 08:35:36 UTC] PHP   2. unlink() /home/ubuntu/workspace/servidor-hackathon/controllers/ConfiguracoesController.php:12
+[30-Oct-2016 08:35:36 UTC] PHP Warning:  fclose() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/servidor-hackathon/controllers/ConfiguracoesController.php on line 24
+[30-Oct-2016 08:35:36 UTC] PHP Stack trace:
+[30-Oct-2016 08:35:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/servidor-hackathon/controllers/ConfiguracoesController.php:0
+[30-Oct-2016 08:35:36 UTC] PHP   2. fclose() /home/ubuntu/workspace/servidor-hackathon/controllers/ConfiguracoesController.php:24
+[30-Oct-2016 08:38:12 UTC] PHP Warning:  fclose() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/servidor-hackathon/controllers/ConfiguracoesController.php on line 24
+[30-Oct-2016 08:38:12 UTC] PHP Stack trace:
+[30-Oct-2016 08:38:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/servidor-hackathon/controllers/ConfiguracoesController.php:0
+[30-Oct-2016 08:38:12 UTC] PHP   2. fclose() /home/ubuntu/workspace/servidor-hackathon/controllers/ConfiguracoesController.php:24

@@ -1,0 +1,7 @@
+nome=Alface
+capacidadeMinima=70
+capacidadeMaxima=90
+horaInicial=21:30
+horaFinal=
+temperaturaMinima=2
+temperaturaMaxima=32
